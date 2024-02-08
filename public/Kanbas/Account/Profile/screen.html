@@ -1,59 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>Kanbas</title>
+        <link rel="stylesheet" href="../../styles.css" />
+        <link rel="stylesheet" href="../../Navigation/index.css" />
+        <link rel="stylesheet" href="../../../libs/font-awesome/css/font-awesome.css" />
+		<link rel="stylesheet" href="../../../libs/bootstrap/bootstrap.min.css" />
 	</head>
 	<body>
-		<table>
-			<tr>
-				<td valign="top">
-					<ul>
-						<li><a href="screen.html" style="background-color: black; color:white;">Account</a></li>
-						<li><a href="../../Dashboard/screen.html">Dashboard</a></li>
-						<li><a href="../../Courses/Navigation/screen.html">Courses</a></li>
-						<li><a href="#">Groups</a></li>
-						<li><a href="#">Calendar</a></li>
-						<li><a href="#">Inbox</a></li>
-						<li><a href="#">History</a></li>
-						<li><a href="#">Studio</a></li>
-						<li><a href="#">Help</a></li>
-					</ul>
-				</td>
-				<td valign="top">
-					<ul>
-						<li><a href="#">Notifications</a></li>
-						<li><a href="../Profile/screen.html">Profile</a></li>
-						<li><a href="#">Files</a></li>
-						<li><a href="#">Settings</a></li>
-						<li><a href="#">ePortfolios</a></li>
-						<li><a href="#">Shared Content</a></li>
-						<li><a href="#">The Hub</a></li>
-						<li><a href="#">Qwickly Course Tools</a></li>
-						<li><a href="#">Global Announcements</a></li>
-					</ul>
-				</td>
-				<td valign="top">
-                    <table>
-                        <thead>
-                            Alvin Wong's Profile
-                        </thead>
-                        <td>
-                            <h2>Alvin Wong</h2>
-                        </td>
-                        <td>
-                            <a href="../Edit/screen.html"><button>Edit Profile</button></a>
-                        </td>
-                    </table>
-                    <h3>Contact</h3>
-                    No Contact Info<br/>
-                    <h3>Biography</h3>
-                    No Biography Info<br/>
-                    <h3>Links</h3>
-                    No Links<br/>
-				</td>
-			</tr>
-		</table>
+		<div class="d-flex">
+			<div class="d-none d-md-block">
+				<ul class="wd-kanbas-navigation">
+					<li class="northeastern-logo"><a href="http://northeastern.edu">N</a></li>
+					<li class="wd-active"><a href="../../Account/Profile/screen.html"><i class="fa fa-user-circle-o" style="color:black"></i>Account</a></li>
+					<li><a href="../../Dashboard/screen.html"><i class="fa fa-tachometer"></i>Dashboard</a></li>
+					<li><a href="../../Courses/Home/screen.html"><i class="fa fa-book"></i><br/>Courses</a></li>
+					<li><a href="#"><i class="fa fa-users"></i><br/>Groups</a></li>
+					<li><a href="#"><i class="fa fa-calendar"></i><br/>Calendar</a></li>
+					<li><a href="#"><i class="fa fa-inbox"></i><br/>Inbox</a></li>
+					<li><a href="#"><i class="fa fa-clock-o"></i><br/>History</a></li>
+					<li><a href="#"><i class="fa fa-desktop"></i><br/>Studio</a></li>
+					<li><a href="#"><i class="fa fa-question-circle"></i><br/>Help</a></li>
+				</ul>
+			</div>
+			<div class="p-3">
+				<ul class="wd-navigation">
+					<li><a href="#">Notifications</a></li>
+					<li class="wd-active"><a href="../Profile/screen.html">Profile</a></li>
+					<li><a href="#">Files</a></li>
+					<li><a href="#">Settings</a></li>
+					<li><a href="#">ePortfolios</a></li>
+					<li><a href="#">Shared Content</a></li>
+					<li><a href="#">The Hub</a></li>
+					<li><a href="#">Qwickly Course Tools</a></li>
+					<li><a href="#">Global Announcements</a></li>
+				</ul>
+			</div>
+			<div>
+
+				<table class="table">
+					<thead>
+						Alvin Wong's Profile
+					</thead>
+					<tbody>
+						<td>
+							<h2>Alvin Wong</h2>
+						</td>
+						<td>
+							<a href="../Edit/screen.html"><button>Edit Profile</button></a>
+						</td>
+						<table class="table">
+							<h3>Contact</h3>
+							No Contact Info
+							<h3>Biography</h3>
+							No Biography Info
+							<h3>Links</h3>
+							No Links
+						</table>
+					</tbody>
+				</table>
+			</div>
+		</div>
 	</body>
 </html>

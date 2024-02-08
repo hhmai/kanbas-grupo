@@ -1,155 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>Kanbas</title>
+        <link rel="stylesheet" href="../../styles.css" />
+        <link rel="stylesheet" href="../../Navigation/index.css" />
+        <link rel="stylesheet" href="../../../libs/font-awesome/css/font-awesome.css" />
+		<link rel="stylesheet" href="../../../libs/bootstrap/bootstrap.min.css" />
 	</head>
 	<body>
-		<table>
-			<tr>
-				<td valign="top">
-					<ul>
-						<li><a href="../../Account/Navigation/screen.html">Account</a></li>
-						<li><a href="../../Dashboard/screen.html">Dashboard</a></li>
-						<li><a href="../../Courses/Navigation/screen.html" style="background-color: black; color:white;">Courses</a></li>
-						<li><a href="#">Groups</a></li>
-						<li><a href="#">Calendar</a></li>
-						<li><a href="#">Inbox</a></li>
-						<li><a href="#">History</a></li>
-						<li><a href="#">Studio</a></li>
-						<li><a href="#">Help</a></li>
-					</ul>
-				</td>
-				<td valign="top">
-					<ul>
-						<li><a href="../Navigation/screen.html">Home</a></li>
-						<li><a href="../Home/screen.html">Modules</a></li>
-						<li><a href="../Grades/screen.html" style="background-color: black; color:white;">Grades</a></li>
-						<li><a href="../Assignments/screen.html">Assignments</a></li>
-						<li><a href="#">Piazza</a></li>
-						<li><a href="#">Zoom Meetings</a></li>
-						<li><a href="#">Quizzes</a></li>
-						<li><a href="#">People</a></li>
-						<li><a href="#">Panopto Video</a></li>
-						<li><a href="#">Discussions</a></li>
-						<li><a href="#">Announcements</a></li>
-						<li><a href="#">Pages</a></li>
-						<li><a href="#">Files</a></li>
-						<li><a href="#">Rubrics</a></li>
-						<li><a href="#">Outcomes</a></li>
-						<li><a href="#">Collaborations</a></li>
-						<li><a href="#">Syllabus</a></li>
-						<li><a href="#">Settings</a></li>
-					</ul>
-				</td>
-				<td valign="top">
-                    <table>
-                        <tr>
-							<td>
-								<select>
-									<option>Gradebook</option>
-								</select>
-								<button>Import</button>
-								<select>
-									<option>Export</option>
-								</select>
-								<button>Configure</button>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<label>Student Names</label><br/>
-								<input placeholder="Search Students"><br/>
-								<label>Assignment Names</label><br/>
-								<input placeholder="Search Assignments"><br/>
-								<button>Apply Filters</button><br/>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<table border="1" width="50%">
-									<thead>
-										<tr>
-										  <th rowspan="2">Student Names</th>
-										  <th>A1</th>
-										  <th>A2</th>
-										  <th>A3</th>
-										  <th>A4</th>
-										  <th>A5</th>
-										  <th>A6</th>
-										  <th>Q1</th>
-										  <th>Q2</th>
-										  <th>Q3</th>
-										  <th>Q4</th>
-										  <th>Q5</th>
-										</tr>
-										<tr>
-										  <th>Out of 100</th>
-										  <th>Out of 100</th>
-										  <th>Out of 100</th>
-										  <th>Out of 100</th>
-										  <th>Out of 100</th>
-										  <th>Out of 100</th>
-										  <th>Out of 100</th>
-										  <th>Out of 100</th>
-										  <th>Out of 100</th>
-										  <th>Out of 100</th>
-										  <th>Out of 100</th>
-										</tr>
-									  </thead>
-									  <tbody>
-										<tr>
-										  <td>Alice Wonderland</td>
-										  <td>100</td>
-										  <td><input type="number" value="100"></td>
-										  <td>100</td>
-										  <td>100</td>
-										  <td>100</td>
-										  <td>100</td>
-										  <td>100</td>
-										  <td>100</td>
-										  <td>100</td>
-										  <td>100</td>
-										  <td><input type="number" value="100"></td>
-										</tr>
-										</tr>
-										</tr>
-										<tr>
-										  <td>Bob Marley</td>
-										  <td>100</td>
-										  <td>100</td>
-										  <td>100</td>
-										  <td><input type="number" value="100"></td>
-										  <td>100</td>
-										  <td>100</td>
-										  <td>100</td>
-										  <td><input type="number" value="100"></td>
-										  <td>100</td>
-										  <td>100</td>
-										  <td>100</td>
-										</tr>
-										<tr>
-										  <td>Charlie Brown</td>
-										  <td>100</td>
-										  <td>100</td>
-										  <td>100</td>
-										  <td>100</td>
-										  <td>100</td>
-										  <td><input type="number" value="100"></td>
-										  <td>100</td>
-										  <td>100</td>
-										  <td>100</td>
-										  <td>100</td>
-										  <td>100</td>
-										</tr>
-									  </tbody>
-								</table>
-							</td>
-						</tr>
-                    </table>
-                </td>
-			</tr>
-		</table>
+		<div class="d-flex">
+			<div class="d-none d-md-block">
+				<ul class="wd-kanbas-navigation">
+					<li class="northeastern-logo"><a href="http://northeastern.edu">N</a></li>
+					<li><a href="../../Account/Profile/screen.html"><i class="fa fa-user-circle-o" style="color:white"></i>Account</a></li>
+					<li><a href="../../Dashboard/screen.html"><i class="fa fa-tachometer"></i>Dashboard</a></li>
+					<li class="wd-active"><a href="../Home/screen.html"><i class="fa fa-book"></i><br/>Courses</a></li>
+					<li><a href="#"><i class="fa fa-users"></i><br/>Groups</a></li>
+					<li><a href="#"><i class="fa fa-calendar"></i><br/>Calendar</a></li>
+					<li><a href="#"><i class="fa fa-inbox"></i><br/>Inbox</a></li>
+					<li><a href="#"><i class="fa fa-clock-o"></i><br/>History</a></li>
+					<li><a href="#"><i class="fa fa-desktop"></i><br/>Studio</a></li>
+					<li><a href="#"><i class="fa fa-question-circle"></i><br/>Help</a></li>
+				</ul>
+			</div>
+			<div class="p-3">
+				<ul class="wd-navigation">
+					<li><a href="../Home/screen.html">Home</a></li>
+					<li><a href="../Module/screen.html">Modules</a></li>
+					<li class="wd-active"><a href="../Grades/screen.html"">Grades</a></li>
+					<li><a href="../Assignments/screen.html">Assignments</a></li>
+					<li><a href="#">Piazza</a></li>
+					<li><a href="#">Zoom Meetings</a></li>
+					<li><a href="#">Quizzes</a></li>
+					<li><a href="#">People</a></li>
+					<li><a href="#">Panopto Video</a></li>
+					<li><a href="#">Discussions</a></li>
+					<li><a href="#">Announcements</a></li>
+					<li><a href="#">Pages</a></li>
+					<li><a href="#">Files</a></li>
+					<li><a href="#">Rubrics</a></li>
+					<li><a href="#">Outcomes</a></li>
+					<li><a href="#">Collaborations</a></li>
+					<li><a href="#">Syllabus</a></li>
+					<li><a href="#">Settings</a></li>
+				</ul>
+			</div>
+			<div class="p-3" style="overflow:hidden">
+				<select>
+					<option>Gradebook</option>
+				</select>
+				<button>Import</button>
+				<select>
+					<option>Export</option>
+				</select>
+				<button>Configure</button>
+				
+				<br/>
+				<label>Student Names</label><br/>
+				<input placeholder="Search Students"><br/>
+				<label>Assignment Names</label><br/>
+				<input placeholder="Search Assignments"><br/>
+				<button>Apply Filters</button><br/>
+				
+				<div class="table-responsive" style="max-width: 100%">
+					<table class="table table-bordered">
+						<thead>
+							<tr>
+								<th rowspan="2">Student Names</th>
+								<th>A1</th>
+								<th>A2</th>
+								<th>A3</th>
+								<th>A4</th>
+								<th>A5</th>
+								<th>A6</th>
+								<th>Q1</th>
+								<th>Q2</th>
+								<th>Q3</th>
+								<th>Q4</th>
+								<th>Q5</th>
+							</tr>
+							<tr>
+								<th>Out of 100</th>
+								<th>Out of 100</th>
+								<th>Out of 100</th>
+								<th>Out of 100</th>
+								<th>Out of 100</th>
+								<th>Out of 100</th>
+								<th>Out of 100</th>
+								<th>Out of 100</th>
+								<th>Out of 100</th>
+								<th>Out of 100</th>
+								<th>Out of 100</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Alice Wonderland</td>
+								<td>100</td>
+								<td><input type="number" value="100"></td>
+								<td>100</td>
+								<td>100</td>
+								<td>100</td>
+								<td>100</td>
+								<td>100</td>
+								<td>100</td>
+								<td>100</td>
+								<td>100</td>
+								<td><input type="number" value="100"></td>
+							</tr>
+							<tr>
+								<td>Bob Marley</td>
+								<td>100</td>
+								<td>100</td>
+								<td>100</td>
+								<td><input type="number" value="100"></td>
+								<td>100</td>
+								<td>100</td>
+								<td>100</td>
+								<td><input type="number" value="100"></td>
+								<td>100</td>
+								<td>100</td>
+								<td>100</td>
+							</tr>
+							<tr>
+								<td>Charlie Brown</td>
+								<td>100</td>
+								<td>100</td>
+								<td>100</td>
+								<td>100</td>
+								<td>100</td>
+								<td><input type="number" value="100"></td>
+								<td>100</td>
+								<td>100</td>
+								<td>100</td>
+								<td>100</td>
+								<td>100</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>

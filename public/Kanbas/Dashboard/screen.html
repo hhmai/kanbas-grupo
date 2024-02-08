@@ -1,27 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>Kanbas</title>
+        <link rel="stylesheet" href="../styles.css" />
+        <link rel="stylesheet" href="../Navigation/index.css" />
+        <link rel="stylesheet" href="../../libs/font-awesome/css/font-awesome.css" />
+		<link rel="stylesheet" href="../../libs/bootstrap/bootstrap.min.css" />
 	</head>
 	<body>
-		<table>
-			<tr>
-				<td valign="top">
-					<ul>
-						<li><a href="../Account/Navigation/screen.html">Account</a></li>
-						<li><a href="screen.html" style="background-color: black; color:white;">Dashboard</a></li>
-						<li><a href="../Courses/Navigation/screen.html">Courses</a></li>
-						<li><a href="#">Groups</a></li>
-						<li><a href="#">Calendar</a></li>
-						<li><a href="#">Inbox</a></li>
-						<li><a href="#">History</a></li>
-						<li><a href="#">Studio</a></li>
-						<li><a href="#">Help</a></li>
-					</ul>
-				</td>
-			</tr>
-		</table>
+		<div class="d-flex">
+			<div class="d-none d-md-block">
+				<ul class="wd-kanbas-navigation">
+					<li class="northeastern-logo"><a href="http://northeastern.edu">N</a></li>
+					<li><a href="../Account/Profile/screen.html"><i class="fa fa-user-circle-o" style="color:white"></i>Account</a></li>
+					<li class="wd-active"><a href="../Dashboard/screen.html"><i class="fa fa-tachometer"></i>Dashboard</a></li>
+					<li><a href="../Courses/Home/screen.html"><i class="fa fa-book"></i><br/>Courses</a></li>
+					<li><a href="#"><i class="fa fa-users"></i><br/>Groups</a></li>
+					<li><a href="#"><i class="fa fa-calendar"></i><br/>Calendar</a></li>
+					<li><a href="#"><i class="fa fa-inbox"></i><br/>Inbox</a></li>
+					<li><a href="#"><i class="fa fa-clock-o"></i><br/>History</a></li>
+					<li><a href="#"><i class="fa fa-desktop"></i><br/>Studio</a></li>
+					<li><a href="#"><i class="fa fa-question-circle"></i><br/>Help</a></li>
+				</ul>
+			</div>
+			<div class="p-3">
+				<h1>Dashboard</h1>
+				<hr />
+				<h2>Published Courses (7)</h2>
+				<hr />
+				<div class="row">
+				  <div class="row row-cols-1 row-cols-md-5 g-4">
+					<div class="col" style="width: 300px; padding-top: 5px; padding-bottom: 5px;">
+					  <div class="card">
+						<img
+						  src="../../images/good-looking-man-with-big-beard-56688bcf3df78ce1611f7ba8.jpg"
+						  class="card-img-top"
+						  style="max-height: 150px"
+						/>
+						<div class="card-body">
+						  <a
+							class="card-title"
+							href="../Courses/Home/screen.html"
+							style="
+							  text-decoration: none;
+							  color: navy;
+							  font-weight: bold;
+							"
+						  >
+							Beard Man</a
+						  >
+						  <p class="card-text">Default Bearded Man</p>
+						  <a html="#" class="btn btn-primary"> Go </a>
+						</div>
+					  </div>
+					</div>
+					<div class="col" style="width: 300px; padding-top: 5px; padding-bottom: 5px;">
+					  <div class="card">
+						<img
+						  src="../../images/good-looking-man-with-big-beard-56688bcf3df78ce1611f7ba8.jpg"
+						  class="card-img-top"
+						  style="max-height: 150px; transform: scaleX(-1);"
+						/>
+						<div class="card-body">
+						  <a
+							class="card-title"
+							href="../Courses/Home/screen.html"
+							style="
+							  text-decoration: none;
+							  color: navy;
+							  font-weight: bold;
+							"
+						  >
+							Beard Man 2</a
+						  >
+						  <p class="card-text">Right-Facing Bearded Man</p>
+						  <a html="#" class="btn btn-primary"> Go </a>
+						</div>
+					  </div>
+					</div>
+					<div class="col" style="width: 300px; padding-top: 5px; padding-bottom: 5px;">
+					  <div class="card">
+						<img
+						  src="../../images/good-looking-man-with-big-beard-56688bcf3df78ce1611f7ba8.jpg"
+						  class="card-img-top"
+						  style="max-height: 150px; transform: scaleY(-1);"
+						/>
+						<div class="card-body">
+						  <a
+							class="card-title"
+							href="../Courses/Home/screen.html"
+							style="
+							  text-decoration: none;
+							  color: navy;
+							  font-weight: bold;
+							"
+						  >
+							Upside-Down Bearded Man</a
+						  >
+						  <p class="card-text">Upside-Down Bearded Man</p>
+						  <a html="#" class="btn btn-primary"> Go </a>
+						</div>
+					  </div>
+					</div>
+					<div class="col" style="width: 300px; padding-top: 5px; padding-bottom: 5px;">
+					  <div class="card">
+						<img
+						  src="../../images/good-looking-man-with-big-beard-56688bcf3df78ce1611f7ba8.jpg"
+						  class="card-img-top"
+						  style="max-height: 150px; transform: scaleY(-1) scaleX(-1);"
+						/>
+						<div class="card-body">
+						  <a
+							class="card-title"
+							href="../Courses/Home/screen.html"
+							style="
+							  text-decoration: none;
+							  color: navy;
+							  font-weight: bold;
+							"
+						  >
+							Upside-Down Bearded Man 2</a
+						  >
+						  <p class="card-text">Upside-Down Bearded Man Facing Right</p>
+						  <a html="#" class="btn btn-primary"> Go </a>
+						</div>
+					  </div>
+					</div>
+					<div class="col" style="width: 300px; padding-top: 5px; padding-bottom: 5px;">
+					  <div class="card">
+						<img
+						  src="../../images/good-looking-man-with-big-beard-56688bcf3df78ce1611f7ba8.jpg"
+						  class="card-img-top"
+						  style="max-height: 150px; opacity: 50%;"
+						/>
+						<div class="card-body">
+						  <a
+							class="card-title"
+							href="../Courses/Home/screen.html"
+							style="
+							  text-decoration: none;
+							  color: navy;
+							  font-weight: bold;
+							"
+						  >
+							Opaque Bearded Man</a
+						  >
+						  <p class="card-text">Half Opacity Bearded Man</p>
+						  <a html="#" class="btn btn-primary"> Go </a>
+						</div>
+					  </div>
+					</div>
+					<div class="col" style="width: 300px; padding-top: 5px; padding-bottom: 5px;">
+					  <div class="card">
+						<img
+						  src="../../images/good-looking-man-with-big-beard-56688bcf3df78ce1611f7ba8.jpg"
+						  class="card-img-top"
+						  style="max-height: 150px; transform: scaleX(-1); opacity: 50%;"
+						/>
+						<div class="card-body">
+						  <a
+							class="card-title"
+							href="../Courses/Home/screen.html"
+							style="
+							  text-decoration: none;
+							  color: navy;
+							  font-weight: bold;
+							"
+						  >
+							Opaque Right-Facing Bearded Man</a
+						  >
+						  <p class="card-text">Half Opacity Right-Facing Bearded Man</p>
+						  <a html="#" class="btn btn-primary"> Go </a>
+						</div>
+					  </div>
+					</div>
+					<div class="col" style="width: 300px; padding-top: 5px; padding-bottom: 5px;">
+					  <div class="card">
+						<img
+						  src="../../images/good-looking-man-with-big-beard-56688bcf3df78ce1611f7ba8.jpg"
+						  class="card-img-top"
+						  style="max-height: 150px; opacity: 15%;"
+						/>
+						<div class="card-body">
+						  <a
+							class="card-title"
+							href="../Courses/Home/screen.html"
+							style="
+							  text-decoration: none;
+							  color: navy;
+							  font-weight: bold;
+							"
+						  >
+							Barely Visible Bearded Man</a
+						  >
+						  <p class="card-text">15% Opacity Bearded Man</p>
+						  <a html="#" class="btn btn-primary"> Go </a>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
