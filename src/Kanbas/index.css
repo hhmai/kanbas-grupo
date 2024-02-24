@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li.northeastern-logo a {
+    font-size: 50px;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.wd-kanbas-navigation {
+    background-color: black;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    width: 80px;
+    height: 100vh;
+    top: 0;
+    position: sticky;
+}
+
+.wd-kanbas-navigation li {
+    padding: 5px;     
+    margin-bottom: 10px;
+    font-size: 0.8em;  
+    text-align: center;
+}
+
+.wd-kanbas-navigation li.wd-active {
+    background-color: white;
+}
+
+.wd-kanbas-navigation li.wd-active a {
+    color: red;
+}
+
+.wd-kanbas-navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.wd-kanbas-navigation a i {
+    color: red;
+    font-size: 2em;
+}
+  
+.wd-navigation {
+    background-color: white;
+    list-style: none;
+    padding: 0px;
+    width: 125px;
+    margin: 0px;
+    margin-left: 10px;
+}
+
+.wd-navigation li {
+    padding-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.wd-navigation li.wd-active {
+    border-left: 2px solid black;
+}
+
+.wd-navigation li.wd-active a {
+    color: black;
+}
+
+.wd-navigation a {
+    color: red;
+    text-decoration: none;
+}
+
+.wd-kanbas-navbar {
+  background-color: black;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  width: 100vw;
+  height: 80px;
+  top: 0;
+  position: sticky;
+}
+
+.wd-kanbas-navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.wd-modules,
+.wd-modules * {
+  border-radius: 0%;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.wd-modules {
+  margin: 5px;
+}
+
+.wd-modules > li {
+  background-color: lightgray;
+  border: 1px solid gray !important;
+  border-left: none !important;
+}
+
+.wd-modules > li > div {
+  padding: 10px;
+  border-left: 2px solid gray !important;
+}
+
+.wd-modules > li > ul > li {
+  padding: 5px;
+  border-top: 1px solid gray !important;
+  border-left: 4px solid green;
+}
+
+.wd-modules > li {
+  margin-bottom: 20px;
+}
+
+
+.wd-kanbas-small-nav {
+  list-style: none;
+  text-align: left;
+  margin: 50px;
+  padding: 50px;
+}
+
+.wd-kanbas-small-nav a {
+  color: red;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+a.x-button {
+  margin-right: 50px;
+  padding-right: 50px;
+  font-size: 50px;
+  color: red;
+  text-decoration: none;
+}
+
+.navbar-icon {
+  margin: 10px;
+  padding: 10px;
+}

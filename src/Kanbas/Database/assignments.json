@@ -1,0 +1,8 @@
+[
+	{ "_id": "BM101", "course": "Beard Man 1", "title": "Assignment 1" },
+	{ "_id": "BM101", "course": "Beard Man 1", "title": "Assignment 2" },
+	{ "_id": "BM102", "course": "Beard Man 2", "title": "Assignment 1" },
+	{ "_id": "RS103", "course": "Beard Man 3", "title": "Assignment 1" },
+	{ "_id": "RS103", "course": "Beard Man 3", "title": "Assignment 2" },
+	{ "_id": "RS103", "course": "Beard Man 3", "title": "Assignment 3" }
+]
