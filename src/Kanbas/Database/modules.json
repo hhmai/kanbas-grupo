@@ -1,116 +1,116 @@
 [
     {
       "_id": "M101",
-      "name": "Introduction to Rocket Propulsion",
-      "description": "Basic principles of rocket propulsion and rocket engines.",
-      "course": "RS101",
+      "name": "Introduction to Beard Man",
+      "description": "Basic principles of Beard Man and Beard Maintenance.",
+      "course": "BM101",
       "lessons": [
-        {
+        { 
           "_id": "L101",
-          "name": "History of Rocketry",
-          "description": "A brief history of rocketry and space exploration.",
+          "name": "History of Beards",
+          "description": "A brief history of Beards and Beard Exploration.",
           "module": "M101"
         },
         {
           "_id": "L102",
-          "name": "Rocket Propulsion Fundamentals",
-          "description": "Basic principles of rocket propulsion.",
+          "name": "Beard Man Fundamentals",
+          "description": "Basic principles of Beard Man.",
           "module": "M101"
         },
         {
           "_id": "L103",
           "name": "Rocket Engine Types",
-          "description": "Overview of different types of rocket engines.",
+          "description": "Overview of different types of Beard Maintenance.",
           "module": "M101"
         }
       ]
     },
     {
       "_id": "M102",
-      "name": "Fuel and Combustion",
-      "description": "Understanding rocket fuel, combustion processes, and efficiency.",
-      "course": "RS101",
+      "name": "Shaving Cream and Combing",
+      "description": "Understanding shaving cream, combing, and efficiency.",
+      "course": "BM102",
       "lessons": [
         {
           "_id": "L201",
-          "name": "Rocket Fuel",
-          "description": "Overview of different types of rocket fuels.",
+          "name": "Shaving Cream",
+          "description": "Overview of different types of shaving creams.",
           "module": "M102"
         },
         {
           "_id": "L202",
-          "name": "Combustion Processes",
-          "description": "Understanding combustion processes and efficiency.",
+          "name": "Shaving Processes",
+          "description": "Understanding shaving processes and efficiency.",
           "module": "M102"
         },
         {
           "_id": "L203",
-          "name": "Combustion Instability",
-          "description": "Understanding combustion instability and mitigation.",
+          "name": "Shaving Instability",
+          "description": "Understanding shaving instability and mitigation.",
           "module": "M102"
         }
       ]
     },
     {
       "_id": "M103",
-      "name": "Nozzle Design",
-      "description": "Principles of rocket nozzle design and performance optimization.",
-      "course": "RS101",
+      "name": "Razor Design",
+      "description": "Principles of razor design and performance optimization.",
+      "course": "BM103",
       "lessons": [
         {
           "_id": "L301",
-          "name": "Nozzle Design",
-          "description": "Overview of different types of rocket nozzles.",
+          "name": "Razor Design",
+          "description": "Overview of different types of razor blades.",
           "module": "M103"
         },
         {
           "_id": "L302",
-          "name": "Nozzle Performance",
-          "description": "Understanding nozzle performance and efficiency.",
+          "name": "Razor Performance",
+          "description": "Understanding razor performance and efficiency.",
           "module": "M103"
         },
         {
           "_id": "L303",
-          "name": "Nozzle Optimization",
-          "description": "Optimizing nozzle design for specific applications.",
+          "name": "Razor Optimization",
+          "description": "Optimizing razor design for specific applications.",
           "module": "M103"
         }
       ]
     },
     {
       "_id": "M201",
-      "name": "Fundamentals of Aerodynamics",
-      "description": "Basic aerodynamic concepts and fluid dynamics principles.",
-      "course": "RS102"
+      "name": "Fundamentals of Shaving",
+      "description": "Basic shaving concepts and shaving cream application principles.",
+      "course": "BM101"
     },
     {
       "_id": "M202",
-      "name": "Subsonic and Supersonic Flow",
-      "description": "Understanding subsonic and supersonic aerodynamic behaviors.",
-      "course": "RS102"
+      "name": "Subsonic and Supersonic Trim",
+      "description": "Understanding subsonic and supersonic trim behaviors.",
+      "course": "BM102"
     },
     {
       "_id": "M203",
-      "name": "Aerodynamic Heating",
-      "description": "Study of aerodynamic heating and thermal protection systems.",
-      "course": "RS102"
+      "name": "Skin Heating",
+      "description": "Study of skin heating and thermal protection systems.",
+      "course": "BM102"
     },
     {
       "_id": "M301",
-      "name": "Spacecraft Structural Design",
-      "description": "Fundamentals of designing spacecraft structures and materials selection.",
-      "course": "RS103"
+      "name": "Shaving Structural Design",
+      "description": "Fundamentals of designing razor structures and materials selection.",
+      "course": "BM103"
     },
     {
       "_id": "M302",
-      "name": "Orbital Mechanics",
-      "description": "Understanding orbital dynamics and mission planning.",
-      "course": "RS103"
+      "name": "Shaving Mechanics",
+      "description": "Understanding shaving dynamics and mission planning.",
+      "course": "BM103"
     },
     {
       "_id": "M303",
-      "name": "Spacecraft Systems Engineering",
-      "description": "Overview of spacecraft systems and subsystems engineering.",
-      "course": "RS103"
+      "name": "Razor Systems Engineering",
+      "description": "Overview of razor systems and subsystems engineering.",
+      "course": "BM103"
     }
   ]

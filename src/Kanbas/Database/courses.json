@@ -2,6 +2,6 @@
     "endDate": "2023-05-15", "image": "../images/good-looking-man-with-big-beard-56688bcf3df78ce1611f7ba8.jpg"  },
   { "_id": "BM102", "name": "Beard Man 2", "number": "BM4560", "startDate": "2023-01-10",
     "endDate": "2023-05-15", "image": "../images/good-looking-man-with-big-beard-56688bcf3df78ce1611f7ba8.jpg"  },
-  { "_id": "RS103", "name": "Beard Man 3", "number": "BM4570", "startDate": "2023-01-10",
+  { "_id": "BM103", "name": "Beard Man 3", "number": "BM4570", "startDate": "2023-01-10",
     "endDate": "2023-05-15", "image": "../images/good-looking-man-with-big-beard-56688bcf3df78ce1611f7ba8.jpg"  } 
 ]
