@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { User } from "./client";
-import * as client from "./client";
+import { User } from "../client";
+import * as client from "../client";
 
 function Login() {
   const [credentials, setCredentials] = useState<User>({ _id: "",
