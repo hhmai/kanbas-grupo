@@ -1,0 +1,52 @@
+.wd-modules,
+.wd-modules * {
+  border-radius: 0%;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.wd-modules {
+  margin: 5px;
+}
+
+.wd-header-modules > li {
+  background-color: lightgray;
+  border: 1px solid gray !important;
+  border-left: none !important;
+}
+
+.wd-modules > li {
+    background-color: white;
+    border: 1px solid gray !important;
+    border-left: none !important;
+  }
+
+.wd-modules > li > div {
+  padding: 6px;
+  border-left: 1px solid gray !important;
+}
+
+.wd-modules > li > ul > li {
+  padding: 5px;
+  border-top: 1px solid gray !important;
+  border-left: 2px solid green;
+}
+
+.wd-modules > li {
+  margin-bottom: 20px;
+}
+
+.button-module {background-color: red; border-color: white; color: white;}
+
+.delete-button-module {padding: 2px solid black; background-color: red; border-color: white; color: white;}
+.edit-button-module {padding: 2px solid black; background-color: green; border-color: white; color: white;}
+.add-button-module {padding: 2px solid black; background-color: green; border-color: white; color: white;}
+.update-button-module {padding: 2px solid black; background-color: blue; border-color: white; color: white;}
+
+.div-header-module {background-color: lightgray;}
+
+.link {color: red;}
+
+.border {border-top: 1px solid gray;}
+
