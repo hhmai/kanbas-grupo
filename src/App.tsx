@@ -1,20 +1,21 @@
+import React from 'react';
 import './App.css';
-import {HashRouter} from "react-router-dom";
-import {Routes, Route, Navigate} from "react-router";
+import Home from './Home';
 import Login from './Login';
 import Register from './Register';
+import { HashRouter, Link, Navigate, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <HashRouter>
-      <div>
+    <>
+      <HashRouter>
         <Routes>
-          <Route path="/" element={<Navigate to="/home"/>}/>
-          <Route path="/login" element={<Login/>}/>
+          <Route path="/" element={<Home/>} />
+          <Route path="/login" element={<Login/>} />
           <Route path="/register" element={<Register/>}/>
         </Routes>
-      </div>
-    </HashRouter>
+      </HashRouter>
+    </>
   );
 }
 
