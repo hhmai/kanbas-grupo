@@ -12,7 +12,7 @@ function Home() {
         <Link to="/">
            <button> Login </button>{/* should read profile if logged in */}
         </Link>
-        <Link to="/">
+        <Link to="/Search">
           <button> Search </button>
         </Link>
         <Link to="/">
