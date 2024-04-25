@@ -1,3 +1,12 @@
+.homePage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  overflow: "auto";
+}
 .home {
   width: 100%;
   height: 90vh;
@@ -9,6 +18,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: black;
 }
 
 .headerContainer {
