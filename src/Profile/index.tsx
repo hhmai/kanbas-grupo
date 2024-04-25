@@ -56,6 +56,7 @@ export default function Profile() {
         <Link to="/">Go Back</Link>
         <br></br>
         <button onClick={handleLogout}> Logout </button>
+        
         </div>
     )
 }

@@ -9,6 +9,7 @@ import "./styles.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import BannerImage from "../images/movie-bg-img-1.png";
+import Rate from "../Rate";
 
 function Search() {
   const [title, setTitle] = React.useState("");

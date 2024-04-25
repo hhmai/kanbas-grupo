@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { useUserAuth } from "../Firebase/AuthContext";
 import { getUser } from "../Firebase/firestoreClient";
 import "./styles.css";
+import Rate from "../Rate";
 
 export const DisplayMovies = ({ e }) => {
   const [currentMovie, setCurrentMovie] = useState("");
