@@ -1,0 +1,54 @@
+.firebaseBackground {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+    justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.firebaseBox {
+    padding: 16px;
+	align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    background-color: lightgray;
+    transform: translateY(-30%);
+}
+
+.firebaseTitle {
+    font-size: 36px;
+}
+
+.firebaseForm {
+    padding: 4px;
+    border-color: white;
+    border-radius: 4px;
+}
+
+.formLabel {
+	font-size: 20px;
+    padding: 8px;
+    padding-left: 0;
+}
+
+.firebaseButton {
+    margin: 12px;
+    padding: 6px;
+    border-radius: 5px;
+    background-color: #121619;
+    text-decoration: none;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+.firebaseButton:hover {
+    color: gray;
+    background-color: #07090a;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
